@@ -2,7 +2,7 @@ Package: shinycubedump
 Type: Package
 Title: Shiny Cube Dump
 Date: 2017-4-6
-Version: 1.1
+Version: 1.2
 Author: Rik de Wijn
 Maintainer: Rik de Wijn <rdwijn@pamgene.com>
 Description: Save Shiny server style data to disk.
