@@ -29,7 +29,7 @@ shinyServerRun = function(input, output, session, context) {
 
     observeEvent(input$done, {
       df = data.frame(rowSeq = 1, colSeq = 1, dummy = NaN)
-      mf = df(groupingType = c("rowSeq", "colSeq", "QuantitationType"),
+      mf = data.frame(groupingType = c("rowSeq", "colSeq", "QuantitationType"),
               labelDescription = c("rowSeq", "colSeq", "dummy"))
       result = AnnotatedData$new(data = df, metadata = mf)
       context$setResult(result)
